@@ -1,0 +1,15 @@
+.cars {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-cars {
+  margin-bottom: 2rem;
+}
+
+.list-cars__btns {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

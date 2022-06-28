@@ -1,0 +1,55 @@
+.car-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.car__name {
+  margin: 0;
+}
+
+.car-img-container {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  height: 48px;
+  width: 64px;
+
+  & svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.move-car {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px dotted #000;
+}
+
+.move-car__start {
+  display: flex;
+}
+
+.flag-finish {
+  width: 36px;
+  height: 36px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.move-car__finish {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 5rem;
+}
+
+.car {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
